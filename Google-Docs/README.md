@@ -1,44 +1,143 @@
 # Google Docs
 
-## What is Google Docs?
-Google Docs is an online word processor used to create, edit, format, and collaborate on documents. Documents are stored in Google Drive.
+## 1. What is Google Docs?
 
-## Create a document
-1. Open https://docs.google.com/.
+Google Docs is an online word processor developed by Google. It is used to create, edit, format, and share documents.
+
+Documents are stored in Google Drive and can be accessed from different devices through the internet.
+
+## 2. Creating a Document
+
+Follow these steps to create a new document:
+
+1. Open [Google Docs](https://docs.google.com/).
 2. Sign in to your Google account.
 3. Select **Blank** or choose a template.
-4. Give the document a title and start writing.
+4. Give the document a suitable title.
+5. Start writing your content.
 
-## Formatting
-Use the toolbar for font, size, bold, italic, underline, and text colour. Apply paragraph styles such as **Title**, **Subtitle**, and **Heading 1**. Use numbered or bulleted lists for structured information.
+## 3. Text Formatting
 
-## Insert content
-Use the **Insert** menu to add tables, images, links, page numbers, and other supported elements.
+Google Docs provides several formatting options through its toolbar.
 
-## Page setup
-Use **File → Page setup** to adjust orientation, paper size, margins, and page colour where available.
+Common formatting features include:
 
-## Collaboration and sharing
-1. Select **Share**.
-2. Enter email addresses or configure general access.
-3. Choose a role:
-   - **Viewer**: can view.
-   - **Commenter**: can view and comment.
-   - **Editor**: can make changes.
-4. Share the document.
+- Font style and font size.
+- Bold, italic, and underline.
+- Text colour and highlighting.
+- Text alignment.
+- Line and paragraph spacing.
 
-Only grant editing access to people who need it.
+You can also apply paragraph styles such as:
 
-## Comments and suggestions
-Select text and add a comment. Use Suggesting mode when proposed edits should be reviewed before becoming document changes. Resolve comments after addressing them.
+- Title
+- Subtitle
+- Heading 1
+- Heading 2
+- Normal text
 
-## Version history
-Use **File → Version history → See version history** to review earlier versions and restore one if needed.
+## 4. Creating Lists
 
-## Download
-Use **File → Download** to export formats such as PDF or Microsoft Word (`.docx`).
+Google Docs supports different types of lists.
 
-## Good practices
-Use meaningful filenames, consistent heading styles, comments for feedback, and check sharing permissions before sending a link. Proofread before submitting.
+- **Bulleted lists:** Used for unordered points.
+- **Numbered lists:** Used for ordered steps.
 
-> Menu labels and features may change; follow the current interface and your instructor's directions.
+These options help organize information clearly.
+
+## 5. Inserting Content
+
+The **Insert** menu allows users to add different elements to a document.
+
+Common options include:
+
+- Tables
+- Images
+- Links
+- Drawings
+- Page numbers
+- Headers and footers
+- Special characters
+
+## 6. Page Setup
+
+Use **File → Page setup** to customize document layout.
+
+You can adjust:
+
+- Page orientation (Portrait or Landscape).
+- Paper size.
+- Page margins.
+- Page colour.
+
+## 7. Collaboration and Sharing
+
+Google Docs allows multiple users to work on the same document.
+
+Steps to share a document:
+
+1. Click the **Share** button.
+2. Enter the email addresses of collaborators or configure general access.
+3. Select an access role.
+4. Click **Send** or copy the sharing link.
+
+### Access Permissions
+
+- **Viewer:** Can view the document.
+- **Commenter:** Can view and add comments.
+- **Editor:** Can edit the document.
+
+Only provide editing access to people who need it.
+
+## 8. Comments and Suggestions
+
+- Comments allow users to give feedback on selected text.
+- Suggesting mode allows proposed edits to be reviewed before they are accepted.
+- Resolved comments can be reviewed when needed.
+
+These features are useful for collaborative editing.
+
+## 9. Version History
+
+Google Docs automatically saves changes.
+
+To view earlier versions:
+
+**File → Version history → See version history**
+
+Users can review previous versions and restore an earlier version when required.
+
+## 10. Downloading and Exporting
+
+Use **File → Download** to export a document into different formats.
+
+Common formats include:
+
+- PDF Document (.pdf)
+- Microsoft Word (.docx)
+- Plain Text (.txt)
+- Rich Text Format (.rtf)
+
+## 11. Advantages of Google Docs
+
+- Free to use with a Google account.
+- Automatic saving.
+- Easy online collaboration.
+- Access from multiple devices.
+- Simple document sharing.
+- Supports different export formats.
+
+## 12. Good Practices
+
+- Use meaningful document names.
+- Apply consistent heading styles.
+- Check spelling and grammar.
+- Use comments for feedback.
+- Verify sharing permissions before sending links.
+- Proofread the document before submission.
+
+## 13. Conclusion
+
+Google Docs is a useful online word processor for creating, editing, and sharing documents. Its collaboration, formatting, and automatic saving features make it suitable for academic and professional work.
+
+> Menu labels and features may change. Follow the current interface and your instructor's directions.
