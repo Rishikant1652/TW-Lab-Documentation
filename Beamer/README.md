@@ -1,77 +1,134 @@
 # Beamer
 
-## What is Beamer?
-Beamer is a LaTeX document class for creating slide presentations. Each slide is usually written inside a `frame` environment.
+## 1. What is Beamer?
 
-## Minimal presentation
+Beamer is a LaTeX document class used to create professional slide presentations. It is commonly used for academic presentations, lectures, seminars, and technical talks.
+
+Each slide is usually created inside a `frame` environment.
+
+## 2. Basic Structure of a Beamer Presentation
+
+A minimal Beamer presentation looks like this:
+
 ```latex
 \documentclass{beamer}
+
 \title{My Presentation}
 \author{Student Name}
 \institute{MNIT Jaipur}
 \date{\today}
 
 \begin{document}
+
 \begin{frame}
-  \titlepage
+    \titlepage
 \end{frame}
 
 \begin{frame}{Introduction}
-  This is my first slide.
+    This is my first slide.
 \end{frame}
+
 \end{document}
 ```
 
-## Important commands
-- `\title{}`, `\author{}`, `\institute{}`, `\date{}`: presentation details.
-- `\begin{frame}{Title}`: starts a slide.
-- `\titlepage`: displays the title slide.
-- `\frametitle{}`: sets a frame title.
+## 3. Important Commands
 
-## Lists
+- `\title{}`: Sets the presentation title.
+- `\author{}`: Specifies the author's name.
+- `\institute{}`: Specifies the institution.
+- `\date{}`: Sets the presentation date.
+- `\begin{frame}{Title}`: Starts a new slide.
+- `\titlepage`: Displays the title slide.
+- `\frametitle{}`: Sets the title of a slide.
+
+## 4. Creating Lists
+
+Beamer supports both unordered and ordered lists.
+
+**Unordered List:**
+
 ```latex
 \begin{frame}{Objectives}
-  \begin{itemize}
-    \item Understand the topic
-    \item Study an example
-  \end{itemize}
+    \begin{itemize}
+        \item Understand the topic
+        \item Study an example
+        \item Review the results
+    \end{itemize}
 \end{frame}
 ```
-Use `enumerate` for numbered lists.
 
-## Themes
-Choose a theme in the preamble, for example `\usetheme{Madrid}`.
+**Ordered List:**
 
-## Columns
 ```latex
-\begin{frame}{Two columns}
-  \begin{columns}
+\begin{frame}{Steps}
+    \begin{enumerate}
+        \item Introduction
+        \item Explanation
+        \item Conclusion
+    \end{enumerate}
+\end{frame}
+```
+
+## 5. Themes
+
+Themes control the overall appearance of a presentation.
+
+Example:
+
+```latex
+\usetheme{Madrid}
+```
+
+Other commonly used themes include:
+
+- `CambridgeUS`
+- `Warsaw`
+- `Berlin`
+- `Singapore`
+- `Pittsburgh`
+
+The theme command is generally placed in the preamble.
+
+## 6. Creating Columns
+
+The `columns` environment is used to divide a slide into multiple sections.
+
+```latex
+\begin{frame}{Two Columns}
+
+\begin{columns}
+
     \column{0.48\textwidth}
     Left-side content
+
     \column{0.48\textwidth}
     Right-side content
-  \end{columns}
+
+\end{columns}
+
 \end{frame}
 ```
 
-## Images
-Add `\usepackage{graphicx}` in the preamble:
+## 7. Adding Images
+
+To insert images, use the `graphicx` package in the preamble.
+
+```latex
+\usepackage{graphicx}
+```
+
+Example:
+
 ```latex
 \begin{frame}{Diagram}
-  \includegraphics[width=0.7\textwidth]{diagram.png}
+    \centering
+    \includegraphics[width=0.7\textwidth]{diagram.png}
 \end{frame}
 ```
 
-## Overlays
+## 8. Overlays and Step-by-Step Presentation
+
+Overlays allow content to appear gradually on a slide.
+
 ```latex
-\begin{itemize}
-  \item<1-> First point
-  \item<2-> Second point
-\end{itemize}
-```
-The overlay specifications reveal content in stages.
-
-## Compile and design tips
-A common command is `pdflatex slides.tex`. Keep one main idea per slide, use readable text, avoid overcrowding, and inspect the compiled PDF.
-
-> Introductory general notes: use the theme and structure required by your instructor if specified.
+\begin{frame}{Important Points
